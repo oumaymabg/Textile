@@ -1,0 +1,78 @@
+.footer {
+  background: #000307;
+  color: white;
+}
+.footer .links ul {
+  list-style-type: none;
+}
+.footer .links li a {
+  color: white;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+.footer .links li a:hover {
+  text-decoration: none;
+  color: #a09d06;
+}
+.footer .about-company i {
+  font-size: 25px;
+}
+.footer .about-company a {
+  color: white;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+.footer .about-company a:hover {
+  color: #a09d06;
+}
+.footer .location i {
+  font-size: 18px;
+}
+.footer .copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+/*
+sign up
+*/
+.contact-us {
+  text-align: center;
+  font-size: 2rem;
+  font-family: var(--font-family) ;
+}
+
+.contact-heading {
+  padding: 5rem;
+}
+.contact-buttons {
+  padding: 3rem;
+}
+.input-user {
+  width: 30rem;
+  padding: 1rem;
+}
+
+input[type] {
+  border: none;
+  border-bottom: 1px solid rgb(180, 168, 168);
+}
+.input-user::placeholder{
+  font-family:var(--font-family) ;
+  color: #071629;
+}
+.button {
+  display: inline-block;
+  border-radius: 75px;
+  background-color: #a7b849;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: 'SourceSemibold';
+  padding: 1.5rem 2.5rem;
+  margin: 3rem;
+  cursor: pointer;
+  width: auto;
+}
+
+.button:hover,
+.button:active {
+  opacity: 1;
+}
